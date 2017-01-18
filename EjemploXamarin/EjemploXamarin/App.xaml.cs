@@ -14,7 +14,7 @@ namespace EjemploXamarin
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new XamlLogin();
         }
 
         protected override void OnStart()

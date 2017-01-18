@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploXamarin.XamlLogin">
+  <StackLayout Spacing="10" Padding="30" VerticalOptions ="CenterAndExpand" HorizontalOptions ="CenterAndExpand">
+
+    <Image Aspect ="AspectFit" Source ="http://blogs.heraldo.es/ciencia/files/2009/09/protonotaria.jpg"/>
+    <Frame>
+      <Label Text="Acceso a la app" FontSize="30" TextColor="#ffc2c2"></Label>
+    </Frame>
+    <Frame>
+      <StackLayout>
+        <Entry Placeholder ="Username" />
+        <Entry Placeholder ="Password" IsPassword="True"/>
+      </StackLayout>
+    </Frame>
+    <Button Text="Login"
+        Clicked="OnClick1"/>
+  </StackLayout>
+
+</ContentPage>
